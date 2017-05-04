@@ -8,4 +8,4 @@ NuGet package via NuGet: AssemblySoft.Serialization
 
 License
 
-FileClient is distributed under the MIT License.
+AssemblySoft.Serialization is distributed under the MIT License.
