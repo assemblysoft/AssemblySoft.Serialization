@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>AssemblySoft.Serialization</id>
+    <version>1.0.0.3</version>
+    <title>AssemblySoft.Serialization</title>
+    <authors>Carl Randall</authors>
+    <owners>AssemblySoft</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://www.assemblysoft.com/packages</projectUrl>
+    <iconUrl>https://www.assemblysoft.com/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Serialization helpers for simple serialization of .Net class objects.</description>
+    <summary>Currently supports object to xml and back.</summary>
+    <tags>Serialization, Task Runner, DevOps</tags>  
+  </metadata>
+</package>
