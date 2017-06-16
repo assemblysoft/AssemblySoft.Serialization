@@ -2,10 +2,10 @@
 
 Serialization library
 
-Downloads
+## Downloads
 
 NuGet package via NuGet: AssemblySoft.Serialization
 
-License
+## License
 
 AssemblySoft.Serialization is distributed under the MIT License.
