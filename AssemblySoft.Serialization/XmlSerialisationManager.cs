@@ -49,6 +49,30 @@ namespace AssemblySoft.Serialization
                 }                
             }
         }
+        
+        /// <summary>
+        /// Deserialises a collection of string objects
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <returns></returns>
+        public static List<T> DeserializeStringObjects(string objectData)
+        {
+            var serializer = new XmlSerializer(typeof(List<T>));
+
+            try
+            {
+                using (TextReader reader = new StringReader(objectData))
+                {
+                    var items = (List<T>)(serializer.Deserialize(reader));
+                    return items;
+                }
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }  
     }
 
 }
